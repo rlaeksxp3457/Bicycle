@@ -13,4 +13,4 @@ SQL : mysql
 
 language: JAVA,HTML,SQL,CSS,JSP
 
-WBS: https://docs.google.com/spreadsheets/d/1fL7m4gifle3JeYXY4Tv0edLqfrBSzE41N6rebI1p9pw/edit?usp=sharing
+WBS: https://github.com/rlaeksxp3457/Bicycle/blob/BicycleProject/%E3%85%88%E3%85%88%E3%84%B1_project_wbs%ED%8C%8C%EC%9D%BC.pdf

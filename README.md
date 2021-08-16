@@ -1,7 +1,3 @@
-★★★업로드 시 주의사항★★★
-1. 풀리퀘스트 충돌 체크 필수!
-2. 작업은 항상 새로운 branch를 만들어서 진행해주세요
-
 # Bicycle
 Bycycle portfolio
 
@@ -17,3 +13,4 @@ SQL : mysql
 
 language: JAVA,HTML,SQL,CSS,JSP
 
+WBS: https://docs.google.com/spreadsheets/d/1fL7m4gifle3JeYXY4Tv0edLqfrBSzE41N6rebI1p9pw/edit?usp=sharing

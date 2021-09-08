@@ -4,24 +4,17 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 
 
 public class BoardDao {
+	DBDriver dbDriver = new DBDriver();
 	private PreparedStatement pstmt;
 	private ResultSet rs;
-	DBDriver dbDriver = new DBDriver();
 
-//	public void addBoard() {
-//		Connection connection = dbDriver.connDB();
-//		String sql = "insert into "
-//		Connection
-//		
-//		
-//	}
-	
 	public int getboardId(String writer, String boardContent , int member_id) {
 		Connection connection = dbDriver.connDB();
 		String sql = "select Board_id from Board where Board_writer = ? AND Board_content = ? AND B_Member_id = ?  ";
@@ -35,7 +28,7 @@ public class BoardDao {
 			while(rs.next()) {
 				boardId = rs.getInt("Board_id");
 			}
-			
+			dbDriver.closeAll(rs, pstmt, connection);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -80,6 +73,8 @@ public class BoardDao {
 				boardDto.setInfo_hit(board_hit);
 
 				arrayList.add(boardDto);
+
+				dbDriver.closeAll(rs, pstmt, connection);
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -122,7 +117,8 @@ public class BoardDao {
 
 
 				arrayList.add(boardDto);
-				
+
+				dbDriver.closeAll(rs, pstmt, connection);
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -150,7 +146,7 @@ public class BoardDao {
 				int boardId = rs.getInt("Board_id");
 				int member_uid = rs.getInt("B_Member_id");
 				int board_hit = rs.getInt("Board_hit");
-				
+
 				boardDto.setCategory_big(categoryBig);
 				boardDto.setCategory_small(categorySmall);
 				boardDto.setBoard_regdate(boardRegDate);
@@ -158,8 +154,10 @@ public class BoardDao {
 				boardDto.setBoard_writer(boardWriter);
 				boardDto.setBoard_id(boardId);
 				boardDto.setBoard_title(boardTitle);
-				boardDto.setMember_uid(member_uid);				
+				boardDto.setMember_uid(member_uid);
 				boardDto.setInfo_hit(board_hit);
+
+				dbDriver.closeAll(rs, pstmt, connection);
 			}
 			
 		} catch (SQLException e) {
@@ -202,6 +200,7 @@ public class BoardDao {
 			pstmt.executeUpdate();
 			dbDriver.closeAll(pstmt, connection);
 			check = true;
+			dbDriver.closeAll(pstmt, connection);
 		} catch (SQLException e) {
 			check = false;
 			e.printStackTrace();
@@ -233,7 +232,7 @@ public class BoardDao {
 
 	// 데이터 베이스 수정 오버로딩
 	public boolean update(int Board_id, String title, String content, String category_sm) {
-		String sql = "update board set Board_title= ?, Board_content = ? , Category_small = ? WHERE Board_id = ? ";
+		String sql = "update board set Board_title= ?, Board_content = ? , Category_small = ? where Board_id = ? ";
 		Connection connection = dbDriver.connDB();
 		boolean check;
 		try {

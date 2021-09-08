@@ -1,11 +1,11 @@
 package database;
 
 public class MarketBoardDto {
-	int marketId; // 중고거래 테이블 PK
+	int market_Id; // 중고거래 테이블 PK
 	int m_Board_Id; // 게시판 테이블 FK
-	int marketPrice; // 중고거래 가격
-	String marketAddr; // 중고거래 주소
-	String marketName; // 중고거래 종류
+	int market_Price; // 중고거래 가격
+	String market_Addr; // 중고거래 주소
+	String market_Name; // 중고거래 종류
 	String marketState; // 거래 가능 상태
 
 	public void setMarketState(String marketState) {

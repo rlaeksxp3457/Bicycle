@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="cos">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/WebContent/WEB-INF/lib/cos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/WebContent/WEB-INF/lib/json_simple-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/WebContent/WEB-INF/lib/mysql-connector-java-8.0.23.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

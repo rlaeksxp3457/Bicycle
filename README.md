@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=Waving&color=auto&height=300&section=header&text=Bicycle%20Project&fontSize=90" />
+  <img src="https://capsule-render.vercel.app/api?type=Waving&color=auto&height=300&section=header&text=Bicycle&fontSize=90" />
 </p>
 </br>
 </br>
@@ -25,17 +25,19 @@
 <h1 align="center">
   목차
 </h1>
-<!-- <ul>
-  <li>디자인</li>
-  <li>DB설계</li>
-  <li>백엔드</li>
-  <li>프론트엔드</li>
-  <li>퍼블리싱</li>
-</ul> -->
+ <ol>
+  <li><a href="#design">디자인</a></li>
+  <li><a href="#DB">DB설계</a></li>
+  <li><a href="#backend">백엔드</a></li>
+  <li><a href="#frontend">프론트엔드</a></li>
+</ol>
 
-1. 디자인
-2. DB 설계
-3. 퍼블리싱
-4. 프론트엔드
-5. 백엔드
+<h1 id="design">디자인</h1>
+
+쓸내용 이지롱
+<h1 id="DB">DB설계</h1>
+쓸내용 이지롱
+<h1 id="backend">백엔드</h1>
+쓸내용 이지롱
+<h1 id="frontend">프론트엔드</h1>
 

@@ -1,16 +1,41 @@
-# Bicycle
-Bycycle portfolio
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=Waving&color=auto&height=300&section=header&text=No%20Wait&fontSize=90" />
+</p>
+</br>
+</br>
 
-이젠아카데미 ㅈㅈㄱ 웹 개발 프로젝트
+<h1 align="center">
+  Use Tech
+</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vuetify.js 2.5.8-1867C0?style=flat-square&logo=Vuetify&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js 14.17-339933?style=flat-square&logo=Node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=IntelliJ%20IDEA&logoColor=white"/>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/MySQL 8.0-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/>
+  <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=Express&logoColor=white"/>
+</p>
 
-2021/07/02시작 ~ 2021/07/27 끝
+<h1 align="center">
+  목차
+</h1>
+<!-- <ul>
+  <li>디자인</li>
+  <li>DB설계</li>
+  <li>백엔드</li>
+  <li>프론트엔드</li>
+  <li>퍼블리싱</li>
+</ul> -->
 
-진행률 100%
+1. 디자인
+2. DB 설계
+3. 퍼블리싱
+4. 프론트엔드
+5. 백엔드
 
-css: bootstrap4.0.0
-SQL : mysql
-구현도구 : Eclipse,VSC
-
-language: JAVA,HTML,SQL,CSS,JSP
-
-WBS: https://github.com/rlaeksxp3457/Bicycle/blob/BicycleProject/%E3%85%88%E3%85%88%E3%84%B1_project_wbs%ED%8C%8C%EC%9D%BC.pdf

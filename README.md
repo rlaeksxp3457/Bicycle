@@ -21,23 +21,3 @@
   <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white"/>
   <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=Express&logoColor=white"/>
 </p>
-
-<h1 align="center">
-  목차
-</h1>
- <ol>
-  <li><a href="#design">디자인</a></li>
-  <li><a href="#DB">DB설계</a></li>
-  <li><a href="#backend">백엔드</a></li>
-  <li><a href="#frontend">프론트엔드</a></li>
-</ol>
-
-<h1 id="design">디자인</h1>
-
-쓸내용 이지롱
-<h1 id="DB">DB설계</h1>
-쓸내용 이지롱
-<h1 id="backend">백엔드</h1>
-쓸내용 이지롱
-<h1 id="frontend">프론트엔드</h1>
-
